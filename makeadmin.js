@@ -4,7 +4,11 @@ async function makeAdmin(){
     try {
         let user = await User.findOne({email: 'sushil@gmail.com'});
         if(user) {
+<<<<<<< HEAD
             console.log("User updated successfully");
+=======
+            console.log("User updated successfuly..")
+>>>>>>> 73f50f8 (added mother field)
         } else {
 
         user = new User();
@@ -15,7 +19,11 @@ async function makeAdmin(){
         user.password = encryptedPassword;
         user.userType = 'Admin';
         await user.save();
+<<<<<<< HEAD
             console.log("User saved successfully");
+=======
+        console.log("user saved successfully");
+>>>>>>> 73f50f8 (added mother field)
         }
 
 

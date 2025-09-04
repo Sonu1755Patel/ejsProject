@@ -20,6 +20,10 @@ app.listen(3000, (err)=> {
     if(err) {
         console.log(err);
     } else {
+<<<<<<< HEAD
         console.log("Server is running on 3000");
+=======
+        console.log("server is running on 3000");
+>>>>>>> 73f50f8 (added mother field)
     }
 });
